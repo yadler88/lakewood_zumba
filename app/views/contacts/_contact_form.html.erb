@@ -1,0 +1,29 @@
+
+<%= form_for(@contact) do |f| %>
+	<table align="center" border=0 margin:"0px">
+		<tr><td>
+			<p align="center">All fields are required!</p>
+		</td></tr>
+  <tr><td><%= render 'shared/error_messages', object: f.object %></td></tr>
+	 <tr><td>
+		    <div>
+		    	<%= f.label :name %>
+		    </div>
+		    <%= f.text_field :name, size: "40" %>
+		</td></tr>
+	<tr><td>
+		    <div>
+		    	<%= f.label :email %>
+		    </div>
+		    <%= f.text_field :email, size: "40" %>
+		</td></tr>
+		 <tr><td>
+		    <div>
+		    	<%= f.label :message, "Message" %>
+		    </div>
+		    <%= f.text_area :message, rows: "10", cols: "50" %>
+		</td></tr>
+		 <tr><td> 
+			<%= f.submit "Send Message", class: "" %>
+		</td></tr></table>
+<% end %>

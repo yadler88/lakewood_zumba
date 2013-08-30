@@ -1,4 +1,9 @@
 LakewoodZumba::Application.routes.draw do
+  resources :contacts,     only: [:new, :create]
+  root 'pages#home'
+  match '/about',   to: 'pages#about',    via: 'get'
+  match '/faqs',    to: 'pages#faqs',     via: 'get'
+  match '/contact', to: 'contacts#new',   via: 'get'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
