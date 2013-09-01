@@ -3,7 +3,7 @@
 /* @import url(http://fonts.googleapis.com/css?family=Handlee); */
 
 body{
-	background-image:url("../images/bg.jpg");
+	background-image: image-url("bg.jpg");
 	margin:0;
 	height:auto;
 	min-height:600px;
@@ -40,7 +40,7 @@ body{
 	margin: 15px;
 }
 .icon{
-	background-image:url("../images/social-links.png");
+	background-image: image-url("social-links.png");
 	width:64px;
 	height:64px;
 }
@@ -254,7 +254,7 @@ td{
 	clear:both;
 }
 .splash{
-	background-image:url("../images/splash1.png");
+	background-image: image-url("splash1.png");
 	float:right;
 	height:170px;
 	width:170px;
