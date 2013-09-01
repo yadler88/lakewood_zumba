@@ -1,6 +1,6 @@
 @charset "utf-8";
 /* CSS Document 
-@import url(http://fonts.googleapis.com/css?family=Handlee);
+@import url(http://fonts.googleapis.com/css?family=Handlee); */
 /*@import "bootstrap";*/
 
 body{
@@ -41,10 +41,9 @@ body{
 	margin: 15px;
 }
 .icon{
-	background-image:url("social links1.png");
+	background-image:url('social links1.png');
 	width:64px;
 	height:64px;
-	z-index:9;
 }
 .facebook {background-position:0px 0px;}
 .facebook:hover {background-position:0px 64px;}
