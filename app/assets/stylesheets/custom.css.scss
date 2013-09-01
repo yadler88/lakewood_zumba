@@ -3,7 +3,7 @@
 /* @import url(http://fonts.googleapis.com/css?family=Handlee); */
 
 body{
-	background-image:url('bg.jpg');
+	background-image:url("bg.jpg");
 	margin:0;
 	height:auto;
 	min-height:600px;
@@ -40,7 +40,7 @@ body{
 	margin: 15px;
 }
 .icon{
-	background-image:url('social-links.png');
+	background-image:url("social-links.png");
 	width:64px;
 	height:64px;
 }
@@ -254,7 +254,7 @@ td{
 	clear:both;
 }
 .splash{
-	background-image:url('splash1.png');
+	background-image:url("splash1.png");
 	float:right;
 	height:170px;
 	width:170px;
@@ -326,7 +326,7 @@ h4{
 }
 .cal p{
 	font-family:  'Handlee', cursive;
-	width:650;
+	width:650px;
 	text-align:justify;
 	font-size:22px;
 	color:#f88e3a;
@@ -388,7 +388,7 @@ h4{
 	font-family:Calibri, sans-serif;
 	font-size:14px;
 	color:#818181;
-	opacity:20%;
+	opacity:20;
 	font-weight:normal;
 	text-align:center;
 	margin-top:1px;
