@@ -193,11 +193,36 @@ nav{
 	text-decoration:none !important;
 	white-space:nowrap;
 }
+.blog a{
+	font-family: 'Chewy', cursive;
+	font-size:23px;
+	width:175px;
+	margin-left:-100px;
+	margin-top:50px;
+	padding:0;
+	float: left;
+	text-shadow:2px 2px 0.4em #cccccc;
+	text-decoration:none;
+	color:#0E720B;
+}
 .cont{
 	height:auto;
 	margin-top:15px;
 	float:left;
 	width:inherit;
+}
+.notice{
+	border:1px solid black;
+	border-radius:4px 4px 4px 4px;
+	background-color:#B9B5BF;
+	margin:auto;
+	width:375px;
+	height:30px;
+	font-family:  'Handlee', cursive;
+	font-size:20px;
+	color:#f88e3a;
+	text-shadow:2px 2px .1em #111111;
+	text-align:center;
 }
 .par{
 	margin-left:50px;
