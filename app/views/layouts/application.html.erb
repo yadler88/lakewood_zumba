@@ -3,6 +3,7 @@
 	<head>
 	  <title><%= site_title(yield(:title)) %></title>
 	  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
 	<link href='http://fonts.googleapis.com/css?family=Handlee' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Chewy' rel='stylesheet' type='text/css'>
@@ -19,6 +20,8 @@
 		  ga('create', 'UA-41792605-1', 'lakewoodzumba.com');
 		  ga('send', 'pageview');
 
+		</script>
+		
 		</script>
 	</head>
 	<body>

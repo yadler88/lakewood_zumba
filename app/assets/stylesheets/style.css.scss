@@ -1,0 +1,68 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0 none;
+	outline: 0;
+}
+
+.tes{
+	display: block;
+	background-color:#FEECD3;
+}
+.tes h4{
+	text-align:center;
+	padding:5px 0 10px;
+	margin:0;
+	text-shadow:none;
+	font-size:24px;
+}
+.tes p{
+	width:230px;
+	margin:auto;
+}
+
+#gallery, #thumbs{
+	float: left;
+}
+
+#gallery{
+	width: 265px;
+	min-height:100px;
+	height: auto;
+	overflow: hidden;
+}
+
+#gallery .tes{
+	position: absolute;
+	padding: 10px 15px 10px;
+	margin:75px 0 0 15px;
+}
+.ar{
+	text-align: right;
+	padding-top:10px;
+}
+
+#thumbs{
+	display:none;
+	width: 100px;
+	height: 300px;
+	overflow: hidden;
+}
+
+#next{
+	display: none;
+	width: 47px;
+	height: 43px;
+	background-image: image-url("arrow.png");
+	position: relative;
+	top: 257px;
+	left: 855px;
+}
+
+#next:hover{
+	background-image: image-url("arrowmo.png");
+}
+
+.clear{
+	clear: both;
+}
