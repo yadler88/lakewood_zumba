@@ -5,7 +5,14 @@
  * Version: 1.0, 05.10.2009 	
  * --------------------------------------------------------------------
  */
-$(document).ready(function() 
+$(function() {
+   initHome();
+});
+$(document).on('page:load', function()
+{
+	initHome();
+} );
+function initHome()
 {	 
 	var index = 0;
 	var images = $("#gallery div");
@@ -39,4 +46,4 @@ $(document).ready(function()
 		console.log(scrollPos, "div.tes-"+num);
 	}
 
-});
+}
