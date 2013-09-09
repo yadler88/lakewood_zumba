@@ -25,7 +25,7 @@ $(document).ready(function()
 	
 	function sift()
 	{
-		if (index<(thumbs.length-1)){index++ ; }
+		if (index<(thumbs.length-1)){index+=1 ; }
 		else {index=0}
 		show (index);
 		counterer(index);
