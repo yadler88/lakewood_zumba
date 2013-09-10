@@ -7,8 +7,11 @@
 
 .tes{
 	display: none;
+	position:relative;
 	border-radius:7px;
+	border:2px solid #A69F93;
 	background-color:#FEECD3;
+	box-shadow:0.1em 0.1em 0.4em #464440;
 }
 .tes h4{
 	text-align:center;
