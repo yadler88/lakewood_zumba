@@ -8,10 +8,10 @@
 $(function() {
    initHome();
 });
-$(document).on('page:load', function()
-{
-	initHome();
-} );
+//$(document).on('page:load', function()
+//{
+//	initHome();
+//} );
 function initHome()
 {	 
 	var index = 0;
