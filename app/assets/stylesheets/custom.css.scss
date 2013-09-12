@@ -57,10 +57,21 @@ body{
 	margin:auto;
 }
 nav{
-	margin-left:116px;
+	margin-left:16px;
 	float:left;
-	height:auto;
-	width:auto;
+	height:87px;
+	width:900px;
+}
+#loser{
+	background:image-url('biggest_loser.png');
+	background-position:0px 0px;
+	width:100px;
+	height:110px;
+	float:left;
+	margin:-13px 16px 0 0;
+}
+#loser:hover{
+	background-position:0px 110px;
 }
 .navmenu{
 	/* Affects the UL element */
