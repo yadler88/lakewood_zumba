@@ -6,12 +6,12 @@
  src: url("helvetica.eot") /* EOT file for IE */
 }
 @font-face {
- font-family: MyCustomFont;
+ font-family: Helvetica;
  src: url("helvetica.ttf") /* TTF file for CSS3 browsers */
 }
 body{
 	font-family:Helvetica;
-	background-image: image-url("bg.jpg");
+	background-image: image-url("bo_play_pattern.png");
 	margin:0;
 	height:auto;
 	min-height:600px;
