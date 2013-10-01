@@ -65,7 +65,7 @@ body{
 	margin:auto;
 }
 nav{
-	margin-left:116px;
+	margin-left:97px;
 	float:left;
 	height:87px;
 	width:900px;
@@ -248,8 +248,9 @@ nav{
 }
 .par{
 	margin-left:40px;
+	margin-right:70px;
 	float:left;
-	width:675px;
+	width:600px;
 }
 .about{
 	margin-left:50px;
@@ -271,7 +272,15 @@ nav{
 	color:#a5a93d;
 	text-shadow:2px  2px .1em #111111;
 }
-.par p, .about p, td p, .cright p{
+.par p{
+	width:inherit;
+	font-size:28px;
+	color:#f88e3a;
+	text-shadow:1px 1px 0.1em #111111;
+	margin:0;
+	line-height:120%;
+}
+.about p, td p, .cright p{
 /*	font-family:  'Handlee', cursive;*/
 	width:inherit;
 	font-size:30px;
