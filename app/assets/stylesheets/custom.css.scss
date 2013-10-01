@@ -1,8 +1,16 @@
 @charset "utf-8";
 /* CSS Document  */
 /* @import url(http://fonts.googleapis.com/css?family=Handlee); */
-
+@font-face {
+ font-family: Helvetica;
+ src: url("helvetica.eot") /* EOT file for IE */
+}
+@font-face {
+ font-family: MyCustomFont;
+ src: url("helvetica.ttf") /* TTF file for CSS3 browsers */
+}
 body{
+	font-family:Helvetica;
 	background-image: image-url("bg.jpg");
 	margin:0;
 	height:auto;
@@ -21,7 +29,7 @@ body{
 	float:left;
 }
 .phone{
-	font-family: 'Handlee', cursive;
+/*	font-family: 'Helvetica';*/
 	margin:auto;
 	font-size:20px;
 	color:#f88e3a;
@@ -57,7 +65,7 @@ body{
 	margin:auto;
 }
 nav{
-	margin-left:16px;
+	margin-left:116px;
 	float:left;
 	height:87px;
 	width:900px;
@@ -68,7 +76,7 @@ nav{
 	width:100px;
 	height:110px;
 	float:left;
-	margin:-13px 16px 0 0;
+	margin:17px 3% 0 12%;
 }
 #loser:hover{
 	background-position:0px 110px;
@@ -195,7 +203,7 @@ nav{
 .navmenu li a{
 	color: #4f4f4f;
 	display: inline-block;
-	font: 20px/1 'handlee', cursive;
+	font: 20px/1 'Helvetica', cursive;
 	padding: 12px 40px 14px;
 	position: relative;
 	text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.4);
@@ -203,7 +211,7 @@ nav{
 	text-decoration:none !important;
 	white-space:nowrap;
 }
-.blog a{
+/*.blog a{
 	font-family: 'Chewy', cursive;
 	font-size:23px;
 	width:175px;
@@ -218,7 +226,7 @@ nav{
 .blog a:hover{
 	color:purple;
 	text-shadow:2px 2px 0.4em #000000;
-}
+}*/
 .cont{
 	height:auto;
 	margin-top:15px;
@@ -232,7 +240,7 @@ nav{
 	margin:auto;
 	width:375px;
 	height:30px;
-	font-family:  'Handlee', cursive;
+/*	font-family:  'Handlee', cursive;*/
 	font-size:20px;
 	color:#f88e3a;
 	text-shadow:2px 2px .1em #111111;
@@ -256,7 +264,7 @@ nav{
 	width:400px;
 }
 .par h1, .cright h1{
-	font-family: 'Handlee', cursive;
+/*	font-family: 'Handlee', cursive;*/
 	font-size:50px;
 	margin-top:25px;
 	margin-bottom:40px;
@@ -264,7 +272,7 @@ nav{
 	text-shadow:2px  2px .1em #111111;
 }
 .par p, .about p, td p, .cright p{
-	font-family:  'Handlee', cursive;
+/*	font-family:  'Handlee', cursive;*/
 	width:inherit;
 	font-size:30px;
 	color:#f88e3a;
@@ -272,7 +280,7 @@ nav{
 	margin:0;
 }
 .about ol{
-	font-family:  'Handlee', cursive;
+/*	font-family:  'Handlee', cursive;*/
 	width:auto;
 	font-size:30px;
 	color:#f88e3a;
@@ -282,7 +290,7 @@ nav{
 }
 
 td{
-	font-family:  'Handlee', cursive;
+/*	font-family:  'Handlee', cursive;*/
 	font-size:18px;
 	color:#d9e05e;
 	text-shadow:1px 1px .1em #111111;
@@ -312,14 +320,14 @@ td{
 }
 .hiddenbar{
 	display:none;
-	font-family:  'Handlee', cursive;
+/*	font-family:  'Handlee', cursive;*/
 	font-size:24px;
 	color:#d9e05e;
 	text-shadow:-1px -1px 0.1em #111111;
 }
 .shownbar {
 	display:inline;
-	font-family:  'Handlee', cursive;
+/*	font-family:  'Handlee', cursive;*/
 	font-size:24px;
 	color:#d9e05e;
 	text-shadow:-1px -1px 0.1em #111111;
@@ -331,14 +339,14 @@ td{
 	text-align:center;
 }
 .faq a{
-	font-family:  'Handlee', cursive;
+/*	font-family:  'Handlee', cursive;*/
 	font-size:30px;
 	color:#f88e3a;
 	text-shadow:2px  2px .1em #111111;
 	text-decoration:none;
 }
 h3{
-	font-family: 'Handlee', cursive;
+/*	font-family: 'Handlee', cursive;*/
 	font-size:50px;
 	margin-top:25px;
 	margin-bottom:40px;
@@ -346,7 +354,7 @@ h3{
 	text-shadow:2px  2px .1em #111111;
 }
 h4{
-	font-family: 'Handlee', cursive;
+/*	font-family: 'Handlee', cursive;*/
 	padding-top:25px;
 	color:#f88e3a;
 	text-shadow:2px  2px .1em #111111;
@@ -357,13 +365,13 @@ h4{
 	width:800px;
 }
 .cal h3{
-	font-family: 'Handlee', cursive;
+/*	font-family: 'Handlee', cursive;*/
 	color:#f88e3a;
 	text-shadow:2px  2px .1em #111111;
 	margin:0;
 }
 .cal p{
-	font-family:  'Handlee', cursive;
+/*	font-family:  'Handlee', cursive;*/
 	width:750px;
 	text-align:justify;
 	font-size:22px;
@@ -372,7 +380,7 @@ h4{
 	margin-top:25px;
 }
 .cal a{
-	font-family: 'Handlee', cursive;
+/*	font-family: 'Handlee', cursive;*/
 	color:#d9e05e;
 	text-shadow:2px  2px .1em #111111;
 	text-decoration:none;
@@ -444,7 +452,7 @@ h4{
 }
 .footermenu .login{
 	color:#666;
-	opacity:0.3;
+	opacity:0.6;
 	padding-left:10px;
 	border-left:1px solid #818181;
 }
